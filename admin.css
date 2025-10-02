@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding-top: 80px; /* Adjust as needed */
+  background-color: #333;
+  overflow: hidden;
+}
+
+
+
+
+header {
+  padding: 2px;
+  background-color: #000000;
+  position: fixed;
+  color: #ffffff;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  display: flex;
+  justify-content: space-between; /* Align items to the start and end of the header */
+  align-items: center; /* Centers items vertically */
+}
+
+header h1 {
+  margin-left: 20px; /* Adjust the margin to separate the h1 from the edge */
+}
+
+header ul {
+  margin-right: 20px; /* Adjust the margin to separate the ul from the edge */
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: right;
+}
+
+main, footer {
+  padding: 20px;
+}
+
+h1 {
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+
+.right-aligned-div {
+  float: right;
+  background-color: lightblue;
+  padding: 10px;
+  margin: 5px;
+}
+
+
+
+
+.categories {
+  background-color: #feffff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 10px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  /* display: block; */
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+textarea, input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  padding-top: 0px;
+  text-align: center;
+}
+/* --------------------------------- */
+
+input[type="file"] {
+  background-color: #1f9d00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  
+}
+
+input[type="file"]:hover {
+  background-color: #136704;
+}
+
+/* Submit button style */
+input[type="submit"] {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  width: 150px;
+}
+
+input[type="submit"]:hover {
+  background-color: #676767;
+  color: #000000;
+}
+
+/* Logout button style */
+.logout-btn {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.logout-btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+}

@@ -1,0 +1,127 @@
+body {
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 60px;
+    padding-top: 80px;
+    overflow: hidden;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    max-width: 95%;
+ 
+    background-color: #ffffff7d;
+    color: #000000;
+}
+
+.left-side, .right-side {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+}
+
+ 
+
+.right-side {
+    padding-left: 20px;
+    background-color: aliceblue;
+    overflow: hidden;
+    position: relative;
+}
+
+.right-side::before, .right-side::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.448); /* Semi-transparent blue color */
+    transition: transform 0.3s ease-out;
+    z-index: 1;
+}
+
+.right-side::before {
+    left: -100%;
+}
+
+.right-side::after {
+    left: 0;
+    transform: translateX(-100%);
+}
+
+.right-side:hover::before {
+    transform: translateX(100%);
+}
+
+.right-side:hover::after {
+    transform: translateX(0);
+}
+
+.subscription-form {
+    max-width: 380px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #000000b1;
+    color: white;
+}
+
+.subscription-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subscription-form input[type="text"],
+.subscription-form input[type="email"],
+.subscription-form input[type="tel"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.subscription-form button {
+    width: 50%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscription-form button:hover {
+    background-color: #002081;
+}
+
+.right-side h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.right-side p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.right-side ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right-side ul li {
+    padding-left: 30px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
