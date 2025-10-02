@@ -1,6 +1,6 @@
 # 🛍️ QuirkStyle – Product Gallery Website
 
-[Live Demo](https://asraruddeen123.github.io/QuirkStyle-A-product-grallery/)
+[Live Demo]( https://asraruddeen123.github.io/QuirkStyle-A-product-grallery/)
 
 ---
 
@@ -71,7 +71,7 @@ To test the admin features locally:
 
 ## 📍 Live Demo
 
-View the live website here: [QuirkStyle Live Demo](https://asraruddeen123.github.io/QuirkStyle-A-product-grallery/)
+View the live website here: [QuirkStyle Live Demo]( https://asraruddeen123.github.io/QuirkStyle-A-product-grallery/)
 
 ---
 
